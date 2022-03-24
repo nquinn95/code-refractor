@@ -105,11 +105,14 @@ p {
 }
 */
 
-.benefit-lead h3 {
+/*merged classes h3 together for optimizaiton*/
+.benefit-lead h3,
+.benefit-brand h3,
+.benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -119,6 +122,7 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
+*/
 
 .benefit-lead img {
     display: block;
