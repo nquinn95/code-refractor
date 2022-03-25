@@ -72,7 +72,8 @@ p {
     margin-left: 25px;
 }
 
-.content {
+/* Changed class to semantic code for optimization */
+main{
     width: 75%;
     display: inline-block;
     margin-left: 20px;
